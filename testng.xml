@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="WebstarauntStoreAssesment Suite">
+
+    <test name="WebstaurantStore tests">
+        <parameter name="itemName" value="stainless work table"/>
+        <parameter name="keyWord" value="table"/>
+
+        <classes>
+            <class name="tests.WebstaurantStoreTest"/>
+        </classes>
+    </test>
+
+</suite>
